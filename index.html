@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my ezpick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <div class="header-container" id="header-container">
+    <header class="header" id="header">
+        <div class="left"><img src="./logo.png" alt="">
+        </div>
+        <div class="middle">
+            <ul class="menu" id="menu">
+                <li ><a href="" class="navhome">Home</a></li>
+                
+                <li><a href="contact.html" class="navcontact">Contact Us</a></li>
+                
+                <li><a href="faqs.html" class="navfaqs">FAQs</a></li>
+                
+                <li><a href="blogs.html" class="navblogs">Blogs</a></li>
+                
+            </ul>
+        </div>
+        <div class="right">
+             <div class="flag-container">
+              
+            <img class="flag" src="./en.png" alt="">
+        </div>
+        
+            <button class="custom-button" id="custom-button">
+              LOGIN 
+            </button>
+       
+        <div class="moon-container">
+        <i class="fas fa-moon moon-icon" id="moonicon"></i>
+        <svg id="sun" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="27" width="27" xmlns="http://www.w3.org/2000/svg"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></svg>
+       </div>
+        <img class="options" id="options" src="./menu_open.svg" alt="">
+     </header>
+     
+   </div> 
+   <div class="togglmenu" id="togglmenu">
+    <div class="menuset">
+       <img src="./menu_close.svg" alt="" id="crossicon"> 
+        <i class="fas fa-moon moon-icon" id="newmoon"></i>
+        <svg id="newsun" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="27" width="27" xmlns="http://www.w3.org/2000/svg"><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path></svg>
+    <ul class="newmenu">
+        <li><a  href="">Home</a></li>
+       <hr id="home">
+        <li><a  href="contact.html">Contact Us</a></li>
+        <hr id="contactus">
+        <li><a href="faqs.html">FAQs</a></li>
+        <hr id="faqs">
+        <li><a href="blogs.html">Blogs</a></li>
+        <hr id="blogs">
+    </ul>
+</div>
+  </div>
+  <div>
+  <section>
+    <div class="main">
+        <div class="starttext">
+            <p class="text" id="text">Making The End Of The School Day As Easy As A-B-C with Our Student Pick Up System</p>
+            <p class="dismissal" id="text1">Student School </p>
+            <p class="dismissal" id="text2">Dismissal Software</p>
+            <p class="text" id="text3">Simplify Student Pick-Ups And Keep Parents And Teachers Stress-Free With Our Innovative System</p>
+        </div>
+        <div class="shouter">
+            <img src="./heroRightImage.svg" alt="">
+        </div>
+        <div class="pencil">
+            <img src="./heroLeftImage.svg" alt="">
+        </div>
+        <div class="triangle">
+            <img src="./heroTriangle.svg" alt="">
+        </div>
+        <div class="section-button">
+            <button>CONTACT US</button>
+        </div>
+        <div class="video" >
+            <video autoplay loop muted playsinline preload="auto" poster="/images/poster.png" src="./cms_1690288885395.mp4"></video>
+        </div>
+       
+        
+     </div>
+  </section>
+</div>
+<div class="card-container">
+    <div class="paragraph"><p class="heading" id="cardmainheading">Special Features</p></div>
+    <div class="firstrow">
+        <div class="first">
+            <div class="innerdiv">
+                <img src="./feature1.svg" alt="">
+                <h2>PickUp Zone Activation</h2>
+            </div>
+            <p>Schools Designates specific PickUp Zones Equipped With Our Advanced Ezpick technology</p>
+        </div>
+        <div class="second">
+            <div class="innerdiv">
+                <img src="./feature2.svg" alt="">
+                <h2>PickUp/Drop off Notifications</h2>
+            </div>
+            <p>Send Notification When the Child is picked up and dropped off their Destination</p>
+        </div>
+        <div class="third">
+            <div class="innerdiv">
+                <img src="./feature3.svg" alt="">
+                <h2>Seamless PickUp</h2>
+            </div>
+            <p>When its time for pick-up Ezpick will notify the authorized guardians and provide instructions to proceed to the designated pickup zone</p>
+        </div>
+        <div class="fourth">
+            <div class="innerdiv">
+                <img src="./feature4.svg" alt="">
+                <h2>Safety Alerts</h2>
+            </div>
+            <p> Send alerts in case of emergencies and safety issues</p>
+        </div>
+        </div>
+       
+    <div class="secondrow">
+        <div class="firstrow">
+            <div class="first">
+                <div class="innerdiv">
+                    <img src="./feature1.svg" alt="">
+                    <h2>PickUp Zone Activation</h2>
+                </div>
+                <p>Schools Designates specific PickUp Zones Equipped With Our Advanced Ezpick technology</p>
+            </div>
+            <div class="second">
+                <div class="innerdiv">
+                    <img src="./feature2.svg" alt="">
+                    <h2>PickUp/Drop off Notifications</h2>
+                </div>
+                <p>Send Notification When the Child is picked up and dropped off their Destination</p>
+            </div>
+            <div class="third">
+                <div class="innerdiv">
+                    <img src="./feature3.svg" alt="">
+                    <h2>Seamless PickUp</h2>
+                </div>
+                <p>When its time for pick-up Ezpick will notify the authorized guardians and provide instructions to proceed to the designated pickup zone</p>
+            </div>
+            <div class="fourth">
+                <div class="innerdiv">
+                    <img src="./feature4.svg" alt="">
+                    <h2>Safety Alerts</h2>
+                </div>
+                <p> Send alerts in case of emergencies and safety issues</p>
+            </div>
+            </div>
+    </div>
+</div>
+<div class="mobilephone">
+    <div class="mobileimg">
+        <img id="mobileimgfinal" src="./section1.png" alt="">
+    </div>
+    <div class="discription">
+        <p class="stpara" id="stpara">Eliminates Chaos and Confusions During Student Pick-Up Times</p>
+        <p class="ndpara" id="ndpara">Reduces The Risks Of Unauthorized Persons Picking Up Students</p>
+        <p class="rdpara" id="rdpara">Ezpick-Up System Can Enhance The Safety And Security Of Students By Insuring That Only Authorized People Can Pick-up The Students.</p>
+        <div class="list">
+            <div class="list1">
+        <ul>
+            <li>Guardian Authentication</li>
+            <li>User-Friendly Interface</li>
+            <li>Reduced Weight Times</li>
+            </ul>
+            </ul>
+        </div>
+        <div class="list2">
+            <ul>
+            <li>Safe-Guarding Your Childrens</li>
+            <li>Student Enrollments</li>
+            <li>Pick-Up Reminders</li>
+        </ul>
+        </div>
+        
+    </div>
+    </div>
+</div>
+<div class="last" id="last">
+    <div class="last1">
+        
+        <p class="p1">Saves Time And Reduces Waiting Time For Parents</p>
+   
+    
+        <p class="p2" id="p2">Real-Time <br> Updates</p>
+    
+    
+        <p class="updates" id="updates">Parents Receive Real-Time Updates On The Status Of Their Child's Pick-Up, Including The Estimated Time of Arrival </p>
+        <div class="updatediv">
+            <div class="updatein">
+                <p class="lastheading">01</p>
+                <p class="nump" id="nump1"> System Provide Schools With Valuable Data And Ana lytics</p>
+                <hr>
+            </div>
+            <hr class="line">
+            <div  class="updatein">
+                <p class="lastheading">02</p>
+                <p class="nump" id="nump2">Help Schools Saves Time And Money Increasing Their Efficiency And Productivity</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="last2">
+        <img src="./section2Image.png" alt="">
+    </div>
+</div>
+<div class="apps" id="apps">
+    <div class="manage">
+<div class="aboutapp">
+    <p><span class="mobile" id="mobile">Mobile App For</span> <span class="teacher">Teachers</span> <span class="and" id="and">&</span> <span class="parents">Parents</span></p>
+    <p class="childsecurity" id="childsecurity">We Understand Your Child's Security and Thats Why Ezpick Has been thoughtfully engineered to thought a seemless pick-up experience every single-time</p>
+</div>
+</div>
+<div class="manageapps">
+<div class="applinks">
+    <div class="appstore">
+        <img src="./appStore.svg" alt="">
+    </div>
+    <div class="gooleplay">
+        <img src="./googlePlay.svg" alt="">
+    </div>
+
+   
+</div>
+
+</div>
+
+<div class="video2" >
+    
+    <video class="bg-[#F5F5F5] text-dark mx-[40px] bg-[#F5F5F5] object-cover md:rounded-[30px] w-full h-[499px]" autoplay="" loop="" playsinline="" preload="auto"><source src="https://ezpickwhetstonezuseast1.s3.us-east-1.amazonaws.com/schools%2F1692109795706.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+</div>
+<div class="secondlast" id="secondlast">
+    <div class="secondlastmanage" id="secondlastmanage">
+        <a href=""><img src="./logo.png" alt=""></a>
+        <p id="secondlastp">Ezpick-Up System is a Technology-Based solution that streamlines the process of picking up the students from the school.</p>
+        
+    </div>
+</div>
+</div>
+<div class="outerline">
+    <div class="innerline"></div>
+</div>
+<div class="footer">
+<div class="footermanage" >
+    <div  class="footerleft"><p id="footermanage">© 2023.All rights reserved</p></div>
+    <div class="footermiddle">
+        <img src="./facebook.svg" alt="">
+        <img src="./instagram.svg" alt="">
+        <img src="./twitter.svg" alt="">
+        <img src="./snapchat.svg" alt="">
+    </div>
+    <div class="footerright" id="footerrightmedia">
+        <p id="footermanage1">Privacy Policy</p>
+        <p id="footermanage2">Terms & Conditions</p>
+    </div>  
+
+</div>
+</div>
+
+   <script src="script.js"></script>
+  
+  
+  
+  
+  
+  
+  <div></div>
+  
+</body>
+</html>
